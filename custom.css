@@ -1,0 +1,103 @@
+.reveal {
+  font-size: 30px;
+}
+
+.reveal .slides section {
+  text-align: left;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  text-transform: none;
+  margin-bottom: 0.4em;
+}
+
+.reveal p,
+.reveal li {
+  line-height: 1.45;
+}
+
+.reveal ul,
+.reveal ol {
+  display: block;
+  margin-left: 1.2em;
+}
+
+.slide-img img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.slide-ref {
+  margin-top: 0.6em;
+  font-size: 0.48em;
+  color: #444;
+  line-height: 1.35;
+}
+
+.slide-ref .line {
+  width: 100px;
+  height: 1px;
+  background: #000;
+  margin-bottom: 6px;
+}
+
+.slide-cols {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.slide-col-4 {
+  flex: 4;
+}
+
+.slide-col-6 {
+  flex: 6;
+}
+
+.math-block {
+  margin: 0.35em 0 0.55em 0;
+  text-align: center;
+}
+
+.tight p,
+.tight li {
+  margin-bottom: 0.2em;
+}
+
+.small {
+  font-size: 0.78em;
+}
+
+.center-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  font-size: 4rem;
+}
+
+.reveal table {
+  font-size: 0.7em;
+  width: 100%;
+}
+
+.reveal .mjx-container {
+  margin: 0.15em 0 !important;
+}
+
+/* Optional: make images on dense slides slightly smaller by default */
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
+
+/* Optional: better spacing for markdown tables */
+.reveal table th,
+.reveal table td {
+  padding: 0.3em 0.45em;
+}
